@@ -1,0 +1,24 @@
+{{>partials/header}}
+
+<a href="">Adicionar usuário</a>
+
+<table border="1" width="100%">
+<tr>
+    <th>ID</th>
+    <th>NOME</th>
+    <th>EMAIL</th>
+    <th>AÇÕES</th>
+</tr>
+
+{{#users}}
+<tr>
+    <td>{{id}}</td>
+    <td>{{nome}}</td>
+    <td>{{email}}</td>
+</tr>
+{{/users}}
+
+</table>
+
+
+{{>partials/footer}}
