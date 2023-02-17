@@ -1,0 +1,41 @@
+body{
+    background-color: darkblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    margin: 20px;
+}
+
+table{
+    margin-top: 10px;
+    background-color: white;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    color: white;
+    position: relative;
+    top: 450px;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+a{
+    color: white;
+}
+
+.botoes{
+    color: black;
+}
+
+table tr:hover td{
+    background-color: #eee;
+}
+
+table td{
+    padding: 10px;
+}

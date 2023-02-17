@@ -1,0 +1,17 @@
+{{>partials/header}}
+<link rel="stylesheet" href="/css/cadastrar.css">
+
+<h1 class="formulario">Adicionar usuário</h1>
+
+<form action="/cadastro" method="POST" class="formulario">
+    Nome: <br>
+    <input type="text" name="nome"> <br>
+    Email: <br>
+    <input type="email" name="email" required><br><br>
+    <input type="submit" value="Cadastrar">
+
+</form>
+
+<a href="/usuarios">Clique aqui!</a>
+
+{{>partials/footer}}

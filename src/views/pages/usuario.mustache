@@ -1,6 +1,6 @@
 {{>partials/header}}
 
-<a href="">Adicionar usuário</a>
+<a href="/cadastro">Adicionar usuário</a>
 
 <table border="1" width="100%">
 <tr>
@@ -15,6 +15,12 @@
     <td>{{id}}</td>
     <td>{{nome}}</td>
     <td>{{email}}</td>
+    <td>
+        <a href="/editar/{{id}}" class="botoes"><img src="/images/pencil.png" alt="editar"></a>
+        <a href="/excluir/{{id}}" class="botoes" onclick="return confirm('Deseja realmente excluir?')">
+            <img src="/images/trash-can.png" alt="">
+        </a>
+    </td>
 </tr>
 {{/users}}
 
